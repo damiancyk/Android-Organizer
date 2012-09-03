@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewNoteOneMainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorNoteOneMainTitle" />
+
+    <Button
+        android:id="@+id/buttonConfigReturn"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editTextConfigLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.09"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textViewNoteOneTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textConfigLogin"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorNoteOneTitle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editTextConfigPassword"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.45"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/textViewNoteOneContents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textConfigPassword"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorYellow3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonConfigSave"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/myshapeyellow" />
+
+</LinearLayout>

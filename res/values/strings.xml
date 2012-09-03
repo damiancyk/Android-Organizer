@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Organizer</string>
+
+    <!-- zmienne kolorow -->
+    <color name="colorBlack">#000000</color>
+    <color name="colorYellow1">#FFFF00</color>
+    <color name="colorYellow2">#EEEE00</color>
+    <color name="colorYellow3">#CDCD00</color>
+    <color name="colorGray1">#E8E8E8</color>
+    <color name="colorGray2">#9C9C9C</color>
+    <color name="colorGray3">#696969</color>
+    <color name="colorGray4">#363636</color>
+    <color name="colorBlue1">#C6E2FF</color>
+    <color name="colorBlue2">#B9D3EE</color>
+    <color name="colorBlue3">#9FB6CD</color>
+    <color name="colorBlue4">#87CEEB</color>
+    <color name="colorBlue5">#6CA6CD</color>
+    <color name="colorBlue6">#36648B</color>
+
+    <!-- zmienne kolorow dla konkretnych elementow -->
+    <color name="colorNoteMainTitle">#87CEEB</color>
+    <color name="colorNoteList">#000000</color>
+    <color name="colorNoteOneMainTitle">#B9D3EE</color>
+    
+    
+    <color name="colorNoteOneTitle">#FFFF00</color>
+ 
+    <string name="textMenuWeb">Uruchom organizer</string>   
+    <string name="textAppLogo">Logo</string>
+    <string name="textMenuWidget">Konfiguruj widget</string>
+    <string name="textConfigLogin">login</string>
+    <string name="textConfigPassword">haslo</string>
+
+</resources>
